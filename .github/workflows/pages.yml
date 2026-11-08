@@ -1,8 +1,8 @@
 name: Deploy ke GitHub Pages
 
+# Sengaja hanya manual: supaya tidak muncul run gagal terus
+# selama Pages belum diaktifkan (Settings -> Pages).
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
